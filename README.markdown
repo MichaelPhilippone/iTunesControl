@@ -1,6 +1,6 @@
-# iTunes Control 
+## iTunes Control 
 
-## Chrome Extension
+### Server-Side Component for the Chrome Extension
 
 #### Author: Michael Philippone
 
