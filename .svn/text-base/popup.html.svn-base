@@ -1,0 +1,25 @@
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script type="text/javascript" src="script.js" language="javascript"></script>
+<form 
+	onSubmit="javascript:doSearch(document.getElementById('search').value); return false;" >
+	Search Flickr: 
+	<input 
+		type="text" 
+		name="search" 
+		id="search" 
+		value="hello world" 
+		size="20" />
+	<input 
+		type="submit" 
+		name="searchBtn" 
+		id="searchBtn" 
+		value="Search" 
+		onclick="javascript:doSearch( document.getElementById('search').value );" />
+	<br/>
+</form>
+<div id="results"></div>
+
+<script type="text/javascript" language="javascript">
+	doSearch( document.getElementById('search').value );
+</script>

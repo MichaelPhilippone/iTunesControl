@@ -1,4 +1,8 @@
-<html>
+<?php 
+	/* import our necessary function / global patterns */
+	include_once("globals.php");
+	include_once("functions.php");
+?><html>
 <head>
 	<title>Control iTunes</title>
 	<link href="/favicon.ico" rel="shortcut icon" />
@@ -10,14 +14,8 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<? displayCurrentsongInfo(); ?>
-	
-	<div id="GET_controls"></div>
-	
-	<form method="post" action="<? echo $_SERVER['SCRIPT_NAME'];?>" id="POST_form">
-		<input id="command" type="hidden" name="command" value="" />
-		<div id="POST_controls"></div>
-	</form>
+	<?php // displayCurrentsongInfo(); 
+	?>
 
 	<div id="AJAX_controls"></div>
 	

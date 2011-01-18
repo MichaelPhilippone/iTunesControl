@@ -1,7 +1,6 @@
 /* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **  */
 /**	GLOBAL VARS */
 var CmdCats = {"ARTIST":true,"TITLE":true,"ALBUM":true,"VOLUME":true};
-var HTTPtypes = {"GET":0,"POST":0,"AJAX":true};
 
 var Cmds = {"play":">","pause":"#","next":"-->","previous":"<--","volup":"Vol +","voldown":"Vol -"};
 /* ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **  */
@@ -82,7 +81,7 @@ function fillInControls( target , submissionType ){
 							var val = e.target.name;
 							flashMessage( val );
 							$.post(
-								"index.php"
+								"control.php"
 								, { "ajax":true
 										, "cachebust": now
 										, "command": val }
@@ -107,13 +106,8 @@ function fillInControls( target , submissionType ){
 $('body').ready(function(e_TOP){
 
 	/* fill in controller buttones where necessary: */
-	for( var x in HTTPtypes ) {  if(!HTTPtypes[x]) continue;
-		fillInControls( x+'_controls' , x , false);
-	}
+	fillInControls( 'AJAX_controls' , 'AJAX' );
 
-	/* make sure we are posting the form only if there is a command to perform */	
-	$('#POST_form').submit(function(){ return ( !!$('#command').attr('value') && $('#command').attr('value') != '' ); });
-	
 	/* populate song data through page, then set it up to keep populating every 5 secs */
 	fillSongData( window.songData );
 	

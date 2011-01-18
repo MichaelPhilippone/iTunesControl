@@ -1,0 +1,18 @@
+body {
+  min-width:500px;
+  overflow-x:hidden;
+}
+
+#results {
+	border: 1px solid #DFDFDF;	
+	padding:10px;
+}
+
+#results img {
+  margin-left:5px;
+  margin-bottom:5px;
+  border:2px solid black;
+  vertical-align:middle;
+  width:75px;
+  height:75px;
+}
