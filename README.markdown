@@ -42,9 +42,9 @@ address for the computer you are trying to control
 this should open the Options page for the iTunes Control extension
 		* change the IP address in the EACH of the text boxes to your iTunes server
 		* **MAKE SURE IT LOOKS LIKE:**
-			http://<YOUR COMPUTER IP HERE>/ControliTunes/control.php
-			and
-			http://<YOUR COMPUTER IP HERE>/ControliTunes/songinfo.php
+				http://<YOUR COMPUTER IP HERE>/ControliTunes/control.php
+				and
+				http://<YOUR COMPUTER IP HERE>/ControliTunes/songinfo.php
 
 ---
 
