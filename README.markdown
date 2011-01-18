@@ -35,7 +35,16 @@ if all of the above have been completed, continue to #5
 
 5. Make sure the Options page for the extension has the correct
 address for the computer you are trying to control
-	* (**MUST** be on the same local network)
+	* (**MUST** be on the same local network)	
+	* **Fix it!**
+		* Open the extension popup (click the icon in Chrome)
+		* Click the "Options" link in the lower left corner
+this should open the Options page for the iTunes Control extension
+		* change the IP address in the EACH of the text boxes to your iTunes server
+		* **MAKE SURE IT LOOKS LIKE:**
+			http://<YOUR COMPUTER IP HERE>/ControliTunes/control.php
+			and
+			http://<YOUR COMPUTER IP HERE>/ControliTunes/songinfo.php
 
 ---
 
