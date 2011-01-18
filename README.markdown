@@ -6,9 +6,9 @@
 
 #### Date: 2011-01-10
 
-##### Purpose: Allow users to control iTunes from Chrome 
+**Purpose**: Allow users to control iTunes from Chrome 
 
-###### Download: 
+**Download**:
 	http://goo.gl/2jHUr
 [Stable, via Chrome Web Store]
 
