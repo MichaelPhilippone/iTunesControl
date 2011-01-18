@@ -27,13 +27,7 @@ your web browser and point it to
 If the page that appears works, you're all ready to
 use the chrome extension!
 
-4. If step (3) did not work, make sure of a few things:
-	* you followed the instructions here: http://www.whatsmyip.org/itunesremote/
-	* you enabled Web service and PHP on your macintosh
-	* you downloaded the PHP site locally to your computer
-if all of the above have been completed, continue to #5
-
-5. Make sure the Options page for the extension has the correct
+4. Make sure the Options page for the extension has the correct
 address for the computer you are trying to control
 	* (**MUST** be on the same local network)	
 	* **Fix it!**
@@ -41,10 +35,16 @@ address for the computer you are trying to control
 		* Click the "Options" link in the lower left corner
 this should open the Options page for the iTunes Control extension
 		* change the IP address in the EACH of the text boxes to your iTunes server
-		* **MAKE SURE IT LOOKS LIKE:**
+		* **MAKE SURE THE OPTION FIELDS LOOK LIKE THIS:**
 				http://<YOUR COMPUTER IP HERE>/ControliTunes/control.php
 				and
 				http://<YOUR COMPUTER IP HERE>/ControliTunes/songinfo.php
+
+4. If step (4) didn't help, make sure of a few things:
+	* you followed the instructions here: http://www.whatsmyip.org/itunesremote/
+	* you enabled Web service and PHP on your macintosh
+	* you downloaded the PHP site locally to your computer
+if all of the above have been completed, continue to #5
 
 ---
 
