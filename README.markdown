@@ -9,7 +9,7 @@
 **Purpose**: Allow users to control iTunes from Chrome 
 
 **Download**:
-	http://goo.gl/2jHUr
+http://goo.gl/2jHUr
 [Stable, via Chrome Web Store]
 
 --------------------------------------------------------------------
@@ -17,7 +17,7 @@
 #### Set-Up:
 1. You'll need to set up your Mac (only OS X for now, sorry!) 
 according to the configuration specified here: 
-		http://www.whatsmyip.org/itunesremote/
+http://www.whatsmyip.org/itunesremote/
 
 2. Once you have Apache set up to handle PHP requests and the
 Apache conf edited to change the user/group, install the
@@ -27,8 +27,8 @@ root Apache service directory
 		default: /Library/WebServer/Documents
 
 3. After all is installed and prepared, just open
-your web browser and point it to
-		http://localhost/ControliTunes/
+your web browser and point it to:
+http://localhost/ControliTunes/
 If the page that appears works, you're all ready to
 use the chrome extension!
 If not, see #4 below
