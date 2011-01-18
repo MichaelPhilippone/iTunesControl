@@ -24,10 +24,20 @@ root Apache service directory
 3. After all is installed and prepared, just open
 your web browser and point it to
 		http://localhost/ControliTunes/
-If the page that appears controls iTunes, you're all ready to
+If the page that appears works, you're all ready to
 use the chrome extension!
+
+4. If step (3) did not work, make sure of a few things:
+	* you followed the instructions here: http://www.whatsmyip.org/itunesremote/
+	* you enabled Web service and PHP on your macintosh
+	* you downloaded the PHP site locally to your computer
+if all of the above have been completed, continue to #5
+
+5. Make sure the Options page for the extension has the correct
+address for the computer you are trying to control
+	* (**MUST** be on the same local network)
 
 ---
 
-You can download a stable version from the Chrome Web Store: 
+You can download a stable version of the extension from the Chrome Web Store: 
 	http://goo.gl/2jHUr
