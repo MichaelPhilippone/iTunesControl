@@ -50,7 +50,7 @@ this should open the Options page for the iTunes Control extension
 4. If step (4) didn't help, make sure of a few things:
 	* you followed the instructions here: http://www.whatsmyip.org/itunesremote/
 	* you enabled Web service and PHP on your macintosh
-	* you downloaded the PHP site locally to your computer
+	* you downloaded the PHP `SERVER` locally to your computer
 if all of the above have been completed, continue to #5
 
 --------------------------------------------------------------------
