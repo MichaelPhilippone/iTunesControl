@@ -1,0 +1,114 @@
+body {
+	font-size:10px;
+}
+
+#pageIcon {
+	float:left;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+.box {
+	float:left;
+	margin-right:10px;
+	border:1px solid #000000;
+	padding:10px;
+}
+
+//.controller { width:300px; }
+
+.controllerTitle {
+	font-size:25px;
+	font-weight:bold;
+	float:left;
+	margin-right:10px;
+}
+
+.cmdContainer {
+	overflow:hidden;
+	text-align:center;
+}
+.cmdMask {
+	position:relative;
+	z-index:9999;
+	background-color:#dfffdf;
+	height:0;
+	width:0;
+	display:none;
+	opacity:0.90;
+	filter:alpha(opacity=90);
+	margin:0 auto;
+}
+
+.clear { clear:both; }
+.left { float:left; }
+.right { float:right; }
+
+.dataname {
+	padding:5px; 
+	font-weight:bold;
+	float:left;
+	text-align:right;
+	width: 75px;
+	font-size:14px;
+}
+.songdata {
+	font-size:14px;
+	padding:5px; 
+	float:left;
+}
+
+#songDataProgBar {
+	height:15px;
+	background-color:#EFEFEF;
+	border:1px solid #DFDFDF;
+}
+#songDataProgBarMask {
+	min-height:15px;
+	background-color:#3F9F9F;
+}
+#songDataProgBarPercent {}
+#songDataProgBarInfo {}
+
+img { margin-right:10px; }
+
+
+
+
+/* rounded corners for yellow boxes */
+.yellow_roundedcornr_box { background: #ffee00; text-align:center; display:none; float:left; margin-bottom:10px; }
+.yellow_roundedcornr_box:after { clear:both; }
+.yellow_roundedcornr_top div { background: url(../img/roundedcornr_263390_tl.png) no-repeat top left; }
+.yellow_roundedcornr_top { background: url(../img/roundedcornr_263390_tr.png) no-repeat top right; }
+.yellow_roundedcornr_bottom div { background: url(../img/roundedcornr_263390_bl.png) no-repeat bottom left; }
+.yellow_roundedcornr_bottom { background: url(../img/roundedcornr_263390_br.png) no-repeat bottom right; }
+.yellow_roundedcornr_top div, .yellow_roundedcornr_top, .yellow_roundedcornr_bottom div, .yellow_roundedcornr_bottom { width: 100%; height: 10px; font-size: 1px; }
+.yellow_roundedcornr_content { margin: 0 10px; }
+
+
+
+
+/* blue box with rounded corners */
+.blue_box { 
+	background-color: #9090f3; 
+	border-bottom-left-radius: 10px 10px;
+	border-bottom-right-radius: 10px 10px;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+}
+.blue_box:after { clear:both; }
+.blue_box_content { margin: 0 10px; padding:15px; }
+
+/* rounded corners with yellow bg */
+.flash_messages_container { 
+	background: #8ff5c4; 
+	text-align:center; 
+	display:none; 
+	padding:5px;
+	border-bottom-left-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border-top-left-radius: 5px 5px;
+	border-top-right-radius: 5px 5px;
+}
+.flash_messages_container:after { clear:both; }
+.flash_messages_inner { margin: 0 10px; }
