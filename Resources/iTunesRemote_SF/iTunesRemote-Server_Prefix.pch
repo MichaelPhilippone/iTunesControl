@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iTunesRemote-Server' target in the 'iTunesRemote-Server' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

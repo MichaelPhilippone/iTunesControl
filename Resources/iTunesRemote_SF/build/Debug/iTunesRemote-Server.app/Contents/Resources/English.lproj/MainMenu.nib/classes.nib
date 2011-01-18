@@ -1,0 +1,41 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {applysettings = id; browsefiles = id; restart = id; showPrefs = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allowITR = NSColorWell; 
+                allowWeb = NSButton; 
+                appearanceTab = NSTabView; 
+                bordercolor = id; 
+                buttonbg = NSColorWell; 
+                buttonbgh = NSColorWell; 
+                cssPath = NSTextField; 
+                dispName = NSTextField; 
+                generalStatus = NSTextField; 
+                headerbg = NSColorWell; 
+                headerfg = NSColorWell; 
+                itrPort = NSTextField; 
+                itrStatus = NSTextField; 
+                itrStatusIndicator = NSLevelIndicator; 
+                listbg = NSColorWell; 
+                listbgh = NSColorWell; 
+                listfg = NSColorWell; 
+                listfgh = NSColorWell; 
+                pagbg = NSColorWell; 
+                prefsWindow = NSWindow; 
+                statusWindow = NSWindow; 
+                textcolor = NSColorWell; 
+                titlebg = NSColorWell; 
+                webPort = NSTextField; 
+                webStatus = NSTextField; 
+                webStatusIndicator = NSLevelIndicator; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

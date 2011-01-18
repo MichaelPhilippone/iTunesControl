@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4C8A8B4C12DD469600FA6C54 /* iTunesRemote-Server */;
+		activeTarget = 8D1107260486CEB800E47090 /* iTunesRemote-Server */;
+		codeSenseManager = 4C8A8B5B12DD469900FA6C54 /* Code sense */;
+		executables = (
+			4C8A8B4C12DD469600FA6C54 /* iTunesRemote-Server */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					588,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 316491414;
+			PBXWorkspaceStateSaveDate = 316491414;
+		};
+		perUserProjectItems = {
+			4C8A8B6112DD497300FA6C54 /* PBXBookmark */ = 4C8A8B6112DD497300FA6C54 /* PBXBookmark */;
+			4C8A8B6212DD497300FA6C54 /* PBXTextBookmark */ = 4C8A8B6212DD497300FA6C54 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4C8A8B5A12DD469900FA6C54 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {766, 459}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 267}";
+			sepNavWindowFrame = "{{111, 3}, {902, 728}}";
+		};
+	};
+	3021EB860B4E986500019979 /* Controller.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 5726}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{5756, 1006}";
+			sepNavWindowFrame = "{{65, 45}, {902, 728}}";
+		};
+	};
+	3021EBC30B4EA08600019979 /* itunescontrol.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 3668}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 874}";
+			sepNavWindowFrame = "{{88, 24}, {902, 728}}";
+		};
+	};
+	30CB334C0B4FDDBF007EC9E4 /* webserver.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 4970}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 990}";
+			sepNavWindowFrame = "{{65, 45}, {902, 728}}";
+		};
+	};
+	4C8A8B4C12DD469600FA6C54 /* iTunesRemote-Server */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "iTunesRemote-Server";
+		sourceDirectories = (
+		);
+	};
+	4C8A8B5A12DD469900FA6C54 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	4C8A8B5B12DD469900FA6C54 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4C8A8B6112DD497300FA6C54 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	4C8A8B6212DD497300FA6C54 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 267;
+		vrLoc = 0;
+	};
+	8D1107260486CEB800E47090 /* iTunesRemote-Server */ = {
+		activeExec = 0;
+		executables = (
+			4C8A8B4C12DD469600FA6C54 /* iTunesRemote-Server */,
+		);
+	};
+}

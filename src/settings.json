@@ -1,0 +1,26 @@
+{	"Control URL": { 
+			"name" : "Control URL"
+	 		, "id" : "Control URL" 
+			, "size" : "50"
+	 		, "value" : "http://10.0.1.5/ControliTunes/control.php"
+	 		, "type" : "text"  
+ 	}
+	,  "Info URL": { 
+			"name" : "Info URL"
+	 		, "id" : "Info URL" 
+			, "size" : "50"
+	 		, "value" : "http://10.0.1.5/ControliTunes/songinfo.php"
+	 		, "type" : "text"  
+ 	}
+ 	
+ 	
+ 	
+ ,   "option_5": { 
+			"name" : "option_5" 
+ 			, "id" : "option_5" 
+ 			, "checked" : false 
+	 		, "type" : "checkbox"
+ 			, "exclude" : "user"
+ 			, "available":false 
+ 	}
+}	

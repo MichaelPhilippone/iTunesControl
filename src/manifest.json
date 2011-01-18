@@ -1,0 +1,22 @@
+{	"name": 						"iTunes Control"
+	, "version": 				"2.0"
+	, "description": 		"Control iTunes from Chrome"
+	, "options_page": 	"options.html"
+	
+	, "icons": 
+	{	"16" : "icon16.png"
+		, "48": "icon48.png"
+		, "128": "icon128.png"
+	}
+
+	, "browser_action": 
+	{	"default_icon": "icon16.png"
+		, "default_title": "iTunes Control"
+		, "default_popup": "popup.html"
+	}
+	
+	, "permissions": 
+	[	"http://10.0.1.5/*"
+		, "tabs"
+	]
+}

@@ -1,0 +1,81 @@
+/* template.css */
+/* This is the template iTunesRemoteServer uses to fill the colors into,
+ * unless the user has selected his/her own CSS file */
+
+body { background-color: #{pagbg}; }
+
+div.title { 
+    position: absolute;
+    border: 1px solid #{bordercolor};
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 150%;
+    background-color: #{titlebg};
+}
+   
+a { font-color: black; text-decoration: none; }
+div.listitem { color: #{listfg}; background-color: #{listbg}; }
+div.nlistitem{ color: #{listfg}; background-color: #{listbg}; }
+div.listitem:hover { color: #{listfgh}; background-color: #{listbgh}; }
+   
+.btn { height: 14px; background-color: #{buttonbg}; color: #{textcolor}; border: 1px solid #{bordercolor}; margin-right: 3px; }
+.btn:hover { backgrond-color: #{buttonbgh}; }
+   
+div.commandbar {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    height: 25px;
+    right: 49%;
+    background-color: #{titlebg};
+    border: 1px solid #{bordercolor};
+    padding-top: 5px;
+}
+   
+div.volumebar {
+    position: absolute;
+    left: 51%;
+    top: 70px;
+    right: 20px;
+    height: 25px;
+    background-color: #{titlebg};
+    border: 1px solid #{bordercolor};
+    text-align: right;
+    padding-top: 5px;
+}
+   
+div.playlists {
+    background-color: #{listbg};
+    color: #{listfg};
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    bottom: 20px;
+    width: 250px;
+    overflow: scroll;
+    border: 1px solid #{bordercolor};
+}
+   
+div.songs {
+    background-color: #{listbg};
+    color: #{listfg};
+    position: absolute;
+    left: 280px;
+    top: 110px;
+    bottom: 20px;
+    right: 20px;
+    overflow: scroll;
+    border: 1px solid #{bordercolor};
+}
+   
+div.header { color: #{headerfg}; background-color: #{headerbg}; }
+   
+#track { width: 50%; }
+#art { width: 30%; }
+#dur { width: 10%; }
+#rat { width: 10%; }
+   
+.cm { padding-right: 1px; }

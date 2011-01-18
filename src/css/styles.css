@@ -1,0 +1,106 @@
+body {
+  min-width:275px;
+  overflow-x:hidden;
+ 	font-family: Arial , Helvetica , sans-serif;
+ 	font-size:10px;
+ 	display:none;
+}
+
+label { font-size:14px; }
+img { margin-right: 5px; }
+a { margin-right: 10px; }
+input[type='button'] { margin-right: 10px; }
+.pageTitle { margin-top:10px; }
+.controls { clear:both; }
+.clear { clear:both; }
+.left { float:left; }
+.right{ float:right; }
+.center { text-align:center; }
+.cheat-left { margin-left:15px; }
+.cheat-right { margin-right:15px; }
+.rounded { border-radius: 10px 10px; }
+
+#messages { font-size:10px; }
+
+.listing { 
+	padding:5px; 
+	background-color:#EFEFEF;
+}
+
+.pageIcon {
+	margin-bottom:10px;
+	display:none;
+}
+
+.box {
+	padding:5px;
+}
+
+.title {
+	font-size:25px;
+	margin-top:10px;
+	font-weight:bold;
+}
+
+.cmdContainer {
+	overflow:hidden;
+	text-align:center;
+}
+.cmdMask {
+	position:relative;
+	z-index:9999;
+	background-color:#dfffdf;
+	height:0;
+	width:0;
+	display:none;
+	opacity:0.90;
+	filter:alpha(opacity=90);
+	margin:0 auto;
+}
+
+
+#songInfo{ display:none; }
+
+#songDataProgBar {
+	min-height:15px;
+	background-color:#EFEFEF;
+	border:1px solid #DFDFDF;
+	font-size:10px;
+}
+#songDataProgBarMask {
+	min-height:15px;
+	background-color:#3F9F9F;
+}
+
+#songDataProgBarPercent { margin-top:5px; }
+#songDataProgBarInfo { margin-top:5px; }
+#songDataContainer { margin-top:5px; }
+
+
+.dataname {
+	padding:5px; 
+	font-weight:bold;
+	text-align:right;
+	width: 60px;
+	font-size:10px;
+}
+.songdata { 
+	padding:5px; 
+	font-size:12px;
+}
+
+/* blue BG */
+.blue { 
+	background-color:#9090f3;
+	margin: 0 10px; 
+	padding:15px;
+}
+.blue:after { clear:both; }
+
+/* rounded corners with yellow bg */
+.flash { 
+	background: #8ff5c4; 
+	display:none; 
+	padding:5px;
+}
+.flash_messages:after { clear:both; }
