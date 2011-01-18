@@ -15,11 +15,17 @@ according to the configuration specified here:
 		http://www.whatsmyip.org/itunesremote/
 
 2. Once you have Apache set up to handle PHP requests and the
-Apache conf edited to change the user/group, install this
-collection of PHP and Apple- scripts
-		http://localhost/
-be sure to drop the "ControliTunes" directory into your
+Apache conf edited to change the user/group, install the
+collection of PHP and Apple- scripts located in the **SERVER**
+directory be sure to drop the "ControliTunes" directory into your
 root Apache service directory
+		default: /Library/WebServer/Documents
+
+3. After all is installed and prepared, just open
+your web browser and point it to
+		http://localhost/ControliTunes/
+If the page that appears controls iTunes, you're all ready to
+use the chrome extension!
 
 ---
 
