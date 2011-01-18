@@ -1,4 +1,4 @@
-## iTunes Control 
+## iTunes Control Server
 
 ### Server-Side Component for the Chrome Extension
 
