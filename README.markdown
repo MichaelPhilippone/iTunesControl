@@ -26,6 +26,8 @@ your web browser and point it to
 		http://localhost/ControliTunes/
 If the page that appears works, you're all ready to
 use the chrome extension!
+If not, see #4 below
+
 
 4. Make sure the Options page for the extension has the correct
 address for the computer you are trying to control
