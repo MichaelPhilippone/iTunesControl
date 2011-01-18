@@ -6,7 +6,9 @@
 
 #### Date: 2011-01-10
 
-#### **Purpose**: Allow users to control iTunes from Chrome 
+##### Purpose: Allow users to control iTunes from Chrome 
+
+---
 
 #### Set-Up:
 1. You'll need to set up your Mac (only OS X for now, sorry!) 
