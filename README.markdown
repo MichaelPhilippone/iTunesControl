@@ -8,7 +8,11 @@
 
 ##### Purpose: Allow users to control iTunes from Chrome 
 
----
+###### Download: 
+	http://goo.gl/2jHUr
+[Stable, via Chrome Web Store]
+
+--------------------------------------------------------------------
 
 #### Set-Up:
 1. You'll need to set up your Mac (only OS X for now, sorry!) 
@@ -49,7 +53,4 @@ this should open the Options page for the iTunes Control extension
 	* you downloaded the PHP site locally to your computer
 if all of the above have been completed, continue to #5
 
----
-
-You can download a stable version of the extension from the Chrome Web Store: 
-	http://goo.gl/2jHUr
+--------------------------------------------------------------------
